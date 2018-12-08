@@ -1,0 +1,39 @@
+Juan Buena 			PeopleSoft ID: 1275487
+
+Member Variables
+---------------------------------------------------
+PeopleSoft ID(type int):
+
+First Name(type string):
+
+Last Name(type string):
+
+Age(type int):
+
+Date Of Birth(int month, int day, int year):
+
+Major(type string):
+
+Expected Graduation Year(type int):
+
+Year in University( type string: Freshman, Sophomore, Junior, or Senior):
+
+
+Member Functions
+----------------------------------------------------
+getName()
+getID()
+getAge()
+getDOB()
+getMajor()
+getGraduation()
+getStatus()
+
+What happens if we make these two functions private? 
+
+If we make the two functions private then no other external classes could access the functions.
+Also you can safely change the parameters without being changed as opposed for public functions
+in which they could easily be changed by removing or adding parameters that affects all the methods
+you have used in your program. Private functions should be used when other objects or classes don't
+need access to the private function.
+
